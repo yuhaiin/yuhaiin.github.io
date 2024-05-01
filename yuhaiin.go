@@ -1,4 +1,4 @@
-package yuhaiin-github-io
+package yuhaiin_github_io
 
 import "embed"
 
