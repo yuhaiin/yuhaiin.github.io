@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[369],{10369:(e,s,a)=>{a.r(s),a.d(s,{Aead:()=>n});var r=a(95155),l=a(91602);let n=e=>{let{value:s,onChange:a}=e;return(0,r.jsx)(r.Fragment,{children:(0,r.jsx)(l.a9,{label:"Password",value:s.password,onChange:e=>{a({...s,password:e})}})})}}}]);
