@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[901],{10901:(e,s,t)=>{t.r(s),t.d(s,{Redir:()=>r});var a=t(95155),l=t(91602);let r=e=>{let{redir:s,onChange:t}=e;return(0,a.jsx)(a.Fragment,{children:(0,a.jsx)(l.a9,{label:"Host",value:s.host,onChange:e=>t({...s,host:e})})})}}}]);
