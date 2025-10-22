@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7837],{97837:(e,u,l)=>{l.r(u),l.d(u,{Vlessv2:()=>n});var s=l(95155),a=l(91602);let n=e=>{let{value:u,onChange:l}=e;return(0,s.jsx)(s.Fragment,{children:(0,s.jsx)(a.a9,{label:"UUID",value:u.uuid,onChange:e=>{l({...u,uuid:e})}})})}}}]);

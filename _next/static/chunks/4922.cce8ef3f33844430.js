@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4922],{64922:(e,r,n)=>{n.r(r),n.d(r,{HTTP2v2:()=>a});var c=n(95155),u=n(91602);let a=e=>{let{value:r,onChange:n}=e;return(0,c.jsx)(c.Fragment,{children:(0,c.jsx)(u.a9,{label:"Concurrency",value:r.concurrency,onChange:e=>{isNaN(Number(e))||n({...r,concurrency:Number(e)})}})})}}}]);
