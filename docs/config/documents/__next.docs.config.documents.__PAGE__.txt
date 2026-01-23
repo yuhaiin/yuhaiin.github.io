@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
 2:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/3d060d449bada4c1.js"],"OutletBoundary"]
 3:"$Sreact.suspense"
-0:{"buildId":"U6fUWncoQB0llVlsf2ZJM","rsc":["$","$1","c",{"children":[["$","iframe",null,{"src":"https://yuhaiin.github.io/documents/","sandbox":"allow-scripts allow-forms allow-same-origin allow-popups","loading":"lazy","style":{"border":"none","width":"100%","height":"100vh"}}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"qFNCqz8wxKekyoUax0EQd","rsc":["$","$1","c",{"children":[["$","iframe",null,{"src":"https://yuhaiin.github.io/documents/","sandbox":"allow-scripts allow-forms allow-same-origin allow-popups","loading":"lazy","style":{"border":"none","width":"100%","height":"100vh"}}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
 4:null
