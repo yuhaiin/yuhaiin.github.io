@@ -1,0 +1,1 @@
+import{j as a}from"./react-B-rqATSX.js";const t=({src:r,appearance:l="default"})=>{const o=l==="light";return a.jsx("iframe",{src:r,sandbox:"allow-scripts allow-forms allow-same-origin allow-popups",loading:"lazy",style:{border:"none",width:"100%",height:"100vh",backgroundColor:o?"#ffffff":void 0,colorScheme:o?"light":void 0}})};export{t as I};
