@@ -1,1 +1,0 @@
-import{i as e}from"./motion-Be9cnbEI.js";var t=e();function n({statusCode:e,title:n,description:r}){return(0,t.jsxs)(`div`,{style:{padding:`20px`,textAlign:`center`},children:[(0,t.jsx)(`h1`,{children:e}),(0,t.jsx)(`p`,{children:n}),(0,t.jsx)(`p`,{children:r})]})}export{n as t};
