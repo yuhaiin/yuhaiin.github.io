@@ -1,1 +1,0 @@
-import{j as r}from"./react-B-rqATSX.js";function t({statusCode:e,title:n,description:i}){return r.jsxs("div",{style:{padding:"20px",textAlign:"center"},children:[r.jsx("h1",{children:e}),r.jsx("p",{children:n}),r.jsx("p",{children:i})]})}export{t as E};

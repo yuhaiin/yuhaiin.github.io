@@ -1,0 +1,1 @@
+import{i as e}from"./motion-Be9cnbEI.js";var t=e(),n=({src:e,appearance:n=`default`})=>{let r=n===`light`;return(0,t.jsx)(`iframe`,{src:e,sandbox:`allow-scripts allow-forms allow-same-origin allow-popups`,loading:`lazy`,style:{border:`none`,width:`100%`,height:`100vh`,backgroundColor:r?`#ffffff`:void 0,colorScheme:r?`light`:void 0}})};export{n as t};

@@ -1,1 +1,0 @@
-import{j as t}from"./react-B-rqATSX.js";import{I as r}from"./iframe-GBIS8QcS.js";import{M as o}from"./card-6QqU6gMc.js";import"./index-BxOddllI.js";import"./radix-ui-AdoIR6M6.js";import"./motion-COkCLhqu.js";import"./lucide-QMPo1hRG.js";const u=()=>t.jsx(o,{children:t.jsx(r,{src:"https://yuhaiin.github.io/documents/"})});export{u as default};

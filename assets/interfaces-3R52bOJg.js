@@ -1,1 +1,0 @@
-import{r as e}from"./react-B-rqATSX.js";import{t as o}from"./tools_pb-Ha32Tr6r.js";import{u as r}from"./proto-utb90pYN.js";const f=e.createContext([]);function c(){const{data:t}=r(o.method.get_interface,{revalidateOnFocus:!1});return t?t.interfaces:[]}export{f as I,c as u};
