@@ -1,0 +1,1 @@
+import{a as e}from"./rolldown-runtime-Cyuzqnbw.js";import{Pt as t}from"./lucide-BdKbrr4O.js";import{a as n}from"./proto-lGOKBePv.js";import{t as r}from"./tools_pb-ukhB9ZUP.js";var i=(0,e(t()).createContext)([]);function a(){let{data:e}=n(r.method.get_interface,{revalidateOnFocus:!1});return e?e.interfaces:[]}export{a as n,i as t};

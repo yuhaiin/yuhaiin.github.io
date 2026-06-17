@@ -1,0 +1,1 @@
+import{a as e}from"./rolldown-runtime-Cyuzqnbw.js";import{Pt as t}from"./lucide-BdKbrr4O.js";var n=e(t());function r(e){let[t,r]=(0,n.useState)(!1);return(0,n.useEffect)(()=>{let t=setTimeout(()=>r(!0),e);return()=>clearTimeout(t)},[e]),t}export{r as t};
