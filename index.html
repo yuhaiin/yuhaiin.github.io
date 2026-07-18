@@ -9,14 +9,25 @@
   <!-- <meta name="theme-color" content="#000000" /> -->
   <meta name="description" content="yuhaiin" />
   <link rel="apple-touch-icon" href="/docs/logov2192.png" />
-  <script type="module" crossorigin src="/assets/index-DfFyZ2YO.js"></script>
+  <script>
+    (function () {
+      try {
+        var pref = localStorage.getItem('yuhaiin.theme');
+        var theme = (pref === 'light' || pref === 'dark')
+          ? pref
+          : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-bs-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+  <script type="module" crossorigin src="/assets/index-DUy40Yb4.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-CNC7AqOf.js">
-  <link rel="modulepreload" crossorigin href="/assets/lucide-55NBQFnm.js">
-  <link rel="modulepreload" crossorigin href="/assets/motion-BhwWVx7O.js">
-  <link rel="modulepreload" crossorigin href="/assets/radix-ui-C1a9coX5.js">
-  <link rel="modulepreload" crossorigin href="/assets/react-nB_WhhuH.js">
-  <link rel="modulepreload" crossorigin href="/assets/spinner-CncPCkH1.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-ve0B-NET.css">
+  <link rel="modulepreload" crossorigin href="/assets/lucide-CTvCDoeS.js">
+  <link rel="modulepreload" crossorigin href="/assets/motion-BwPMuaRv.js">
+  <link rel="modulepreload" crossorigin href="/assets/radix-ui-DRPr7uaw.js">
+  <link rel="modulepreload" crossorigin href="/assets/react-xj1HB9JG.js">
+  <link rel="modulepreload" crossorigin href="/assets/spinner-B6pZaGUc.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-B1QDt7Kg.css">
 </head>
 
 <body>
