@@ -1,0 +1,1 @@
+import{t as e}from"./client-CMEGEQRa.js";async function t(){return{interfaces:(await e(`GET`,`/api/v2/tools/interfaces`)).interfaces??[]}}async function n(){let t=await e(`GET`,`/api/v2/tools/licenses`);return{yuhaiin:t.yuhaiin??[],android:t.android??[]}}export{n,t};

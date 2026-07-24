@@ -1,0 +1,1 @@
+import{t as e}from"./client-CMEGEQRa.js";function t(t){return e(`GET`,`/api/v2/users`,void 0,{page:1,pageSize:1e3,query:t})}function n(t){return e(`POST`,`/api/v2/users`,t)}function r(t,n){return e(`PUT`,`/api/v2/users/${t}`,{id:t,...n})}function i(t){return e(`DELETE`,`/api/v2/users/${t}`,{id:t})}export{r as i,i as n,t as r,n as t};
