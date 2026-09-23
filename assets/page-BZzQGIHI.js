@@ -1,0 +1,1 @@
+import{i as e}from"./motion-CsdcZwb_.js";import{m as t}from"./card-5nNrKJzM.js";import{t as n}from"./iframe-N7VAoNjQ.js";var r=e(),i=()=>(0,r.jsx)(t,{children:(0,r.jsx)(n,{src:`https://yuhaiin.github.io/documents/`})});export{i as default};
