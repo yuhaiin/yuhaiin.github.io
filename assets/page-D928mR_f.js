@@ -1,1 +1,0 @@
-import{u as e}from"./react-DgY3ppiD.js";import{i as t}from"./motion-CsdcZwb_.js";import{t as n}from"./apiurl-DpLLnzry.js";import{m as r}from"./card-5nNrKJzM.js";import{t as i}from"./iframe-N7VAoNjQ.js";var a=t(),o=()=>{let[t]=e(n,``);return(0,a.jsx)(r,{children:(0,a.jsx)(i,{src:t+`/debug/pprof`,appearance:`light`})})};export{o as default};
