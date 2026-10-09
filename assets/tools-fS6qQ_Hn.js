@@ -1,1 +1,0 @@
-import{t as e}from"./client-C7-V3RAj.js";async function t(){return{interfaces:(await e(`GET`,`/api/v2/tools/interfaces`)).interfaces??[]}}async function n(){let t=await e(`GET`,`/api/v2/tools/licenses`);return{yuhaiin:t.yuhaiin??[],android:t.android??[]}}function r(t,n){return e(`POST`,`/api/v2/tools/diagnostics`,{host:t},void 0,n)}export{n,r,t};
