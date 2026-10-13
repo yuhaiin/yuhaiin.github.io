@@ -1,0 +1,1 @@
+var e=`yuhaiin:navigation-attempt`;function t(){return window.dispatchEvent(new CustomEvent(e,{cancelable:!0,detail:{confirmed:!1}}))}export{t as n,e as t};
