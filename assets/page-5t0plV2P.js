@@ -1,1 +1,0 @@
-import{t as e}from"./react-BvB9BS1T.js";import{p as t}from"./card-C19zjlk8.js";import{t as n}from"./iframe-BgQAxbqb.js";var r=e(),i=()=>(0,r.jsx)(t,{children:(0,r.jsx)(n,{src:`https://yuhaiin.github.io/documents/`})});export{i as default};
