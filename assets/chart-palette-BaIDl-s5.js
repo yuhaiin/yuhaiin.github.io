@@ -1,0 +1,1 @@
+function e(){let e=getComputedStyle(document.documentElement),t=t=>e.getPropertyValue(t).trim(),n=t(`--color-success`),r=t(`--color-info`);return{uploadStroke:n,uploadFill:`color-mix(in srgb, ${n} 12%, transparent)`,downloadStroke:r,downloadFill:`color-mix(in srgb, ${r} 10%, transparent)`,axis:t(`--text-secondary`),grid:t(`--border`),pointFill:t(`--surface`)}}export{e as t};

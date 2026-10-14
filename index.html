@@ -11,23 +11,28 @@
   <link rel="apple-touch-icon" href="/docs/logov2192.png" />
   <script>
     (function () {
+      // Set defaults even when storage access is blocked.
+      var theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      var accent = 'olive';
       try {
         var pref = localStorage.getItem('yuhaiin.theme');
-        var theme = (pref === 'light' || pref === 'dark')
+        theme = (pref === 'light' || pref === 'dark')
           ? pref
           : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        document.documentElement.setAttribute('data-bs-theme', theme);
+        var savedAccent = localStorage.getItem('yuhaiin.accent');
+        if (['olive', 'terracotta', 'plum', 'brass', 'graphite'].indexOf(savedAccent) !== -1) accent = savedAccent;
       } catch (e) {}
+      document.documentElement.setAttribute('data-bs-theme', theme);
+      document.documentElement.setAttribute('data-accent', accent);
     })();
   </script>
-  <script type="module" crossorigin src="/assets/index-Da3M8PS9.js"></script>
+  <script type="module" crossorigin src="/assets/index-CmPXgfSQ.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-hePW80VL.js">
   <link rel="modulepreload" crossorigin href="/assets/react-BvB9BS1T.js">
   <link rel="modulepreload" crossorigin href="/assets/useTranslation-eAw7MBES.js">
-  <link rel="modulepreload" crossorigin href="/assets/createLucideIcon-DVwFE8b8.js">
-  <link rel="modulepreload" crossorigin href="/assets/es2015-IcIJ3CkC.js">
+  <link rel="modulepreload" crossorigin href="/assets/es2015-CcTTCbc3.js">
   <link rel="modulepreload" crossorigin href="/assets/navigation-guard-BVQiUl7R.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-DGVE40pT.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-DSGHycPr.css">
 </head>
 
 <body>
