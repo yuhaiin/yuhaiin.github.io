@@ -1,0 +1,1 @@
+import{t as e}from"./react-BvB9BS1T.js";import{f as t}from"./card-D_gDQK4Q.js";import{z as n}from"./index-BcdJRjl5.js";import{t as r}from"./iframe-BgQAxbqb.js";import{n as i}from"./dist-CcEXyzUX.js";var a=e(),o=()=>{let[e]=i(n,``);return(0,a.jsx)(t,{children:(0,a.jsx)(r,{src:e+`/debug/pprof`,appearance:`light`})})};export{o as default};
