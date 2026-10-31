@@ -1,1 +1,0 @@
-import{t as e}from"./client-DYOLsjbJ.js";async function t(t){if(t.length===0)return{};let n=[...new Set(t)].slice(0,100),r=await e(`POST`,`/api/v2/nodes/status`,{ids:n});return Object.fromEntries((r.items??[]).map(e=>[e.id,e]))}export{t};
