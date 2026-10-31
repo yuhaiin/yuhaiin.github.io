@@ -1,0 +1,1 @@
+import{n as e}from"./confirmation-q_kBiUXZ.js";var t=`yuhaiin:navigation-attempt`;async function n(){let t={};return window.dispatchEvent(new CustomEvent(`yuhaiin:navigation-attempt`,{cancelable:!0,detail:t}))?!t.message||e(t.message):!1}export{n,t};
