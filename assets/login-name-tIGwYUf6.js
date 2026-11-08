@@ -1,0 +1,1 @@
+var e=`[A-Za-z0-9_.\\-]{1,64}`;export{e as t};

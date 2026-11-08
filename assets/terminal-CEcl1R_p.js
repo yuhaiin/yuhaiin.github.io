@@ -1,0 +1,1 @@
+import{O as e}from"./dist-B8jui8fC.js";var t={name:`terminal`,size:24,node:[[`path`,{d:`M12 19h8`,key:`baeox8`}],[`path`,{d:`m4 17 6-6-6-6`,key:`1yngyt`}]]};t.node;var n=e(t);export{n as t};

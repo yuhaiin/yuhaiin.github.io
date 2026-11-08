@@ -1,0 +1,1 @@
+var e=[`B`,`KB`,`MB`,`GB`,`TB`,`PB`];function t(t=0,n=2,r=``){let i=0;for(;t>=1024&&i<e.length-1;)t/=1024,i++;return`${t.toFixed(n)}${r}${e[i]}`}export{t};

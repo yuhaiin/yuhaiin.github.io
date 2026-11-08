@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charSet="utf-8" />
+  <title>Yuhaiin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <link rel="icon" type="image/svg+xml" href="/docs/favicon.svg" />
+  <link rel="alternate icon" type="image/x-icon" href="/docs/faviconv2.ico" />
+  <!-- <meta name="theme-color" content="#000000" /> -->
+  <meta name="description" content="yuhaiin" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/docs/apple-touch-icon.png" />
+  <script>
+    (function () {
+      // Set defaults even when storage access is blocked.
+      var theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      var accent = 'olive';
+      try {
+        var pref = localStorage.getItem('yuhaiin.theme');
+        theme = (pref === 'light' || pref === 'dark')
+          ? pref
+          : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        var savedAccent = localStorage.getItem('yuhaiin.accent');
+        if (['olive', 'terracotta', 'plum', 'brass', 'graphite'].indexOf(savedAccent) !== -1) accent = savedAccent;
+      } catch (e) {}
+      document.documentElement.setAttribute('data-bs-theme', theme);
+      document.documentElement.setAttribute('data-accent', accent);
+    })();
+  </script>
+  <script type="module" crossorigin src="/assets/index-BYt1yIND.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-XKyaHtl9.js">
+  <link rel="modulepreload" crossorigin href="/assets/react-C1iE8mnY.js">
+  <link rel="modulepreload" crossorigin href="/assets/useTranslation-cL7BiMnx.js">
+  <link rel="modulepreload" crossorigin href="/assets/use-swr-emll9s78-CByVgv5j.js">
+  <link rel="modulepreload" crossorigin href="/assets/dist-B8jui8fC.js">
+  <link rel="modulepreload" crossorigin href="/assets/modal-767OS4mO.js">
+  <link rel="modulepreload" crossorigin href="/assets/confirmation-Cl2C73B7.js">
+  <link rel="modulepreload" crossorigin href="/assets/info-CXJJfVGb.js">
+  <link rel="modulepreload" crossorigin href="/assets/navigation-guard-CrqXsBdb.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-YfXSzxr3.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
