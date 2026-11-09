@@ -1,0 +1,16 @@
+{
+  "version": "ui-1794218872-8005e35f06a4",
+  "buildNumber": 1794218872,
+  "apiContract": 1,
+  "requiredCapabilities": [
+    "rpc.v2",
+    "management.v1"
+  ],
+  "optionalCapabilities": [
+    "ssh.wrap.timezone.v1"
+  ],
+  "minAndroidBridge": 0,
+  "url": "https://yuhaiin.github.io/frontend.tar.gz",
+  "sha256": "e9a301c077c325bf4e5d3362fe8a9167cf9d8091f1a7a2d1a24c765824997e80",
+  "size": 1430307
+}

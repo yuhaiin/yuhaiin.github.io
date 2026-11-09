@@ -1,0 +1,13 @@
+{
+  "version": "ui-1794218872-8005e35f06a4",
+  "buildNumber": 1794218872,
+  "apiContract": 1,
+  "requiredCapabilities": [
+    "rpc.v2",
+    "management.v1"
+  ],
+  "optionalCapabilities": [
+    "ssh.wrap.timezone.v1"
+  ],
+  "minAndroidBridge": 0
+}
