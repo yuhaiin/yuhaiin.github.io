@@ -1,6 +1,6 @@
 {
-  "version": "ui-v2-2000000000537-2666e2b8f0cb",
-  "buildNumber": 2000000000537,
+  "version": "ui-v2-2000000000538-d6cad97c3284",
+  "buildNumber": 2000000000538,
   "apiContract": 1,
   "requiredCapabilities": [
     "rpc.v2",
@@ -11,6 +11,6 @@
   ],
   "minAndroidBridge": 0,
   "url": "https://github.com/yuhaiin/yuhaiin-react/releases/download/ui-v2/frontend.tar.gz",
-  "sha256": "df78f218b26b59164f4f9c23bbe43ec8b898c4b9bf91c75f9a32540dc372071b",
-  "size": 1460898
+  "sha256": "7444e39f076fb14b4867b15b81f4a36b525924e5ab9617ad6e3a88b860982434",
+  "size": 1459300
 }
