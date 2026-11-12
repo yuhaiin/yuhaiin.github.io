@@ -1,0 +1,1 @@
+function e(e=!1){return{coordinator:``,token:``,privateKey:``,peerPublicKey:``,localIp:e?`10.88.1.1`:`10.88.1.2`,peerIp:e?`10.88.1.2`:`10.88.1.1`,routes:[]}}export{e as t};
