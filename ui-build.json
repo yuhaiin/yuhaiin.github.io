@@ -1,6 +1,6 @@
 {
-  "version": "ui-2000000001564-44b8ed2413ac",
-  "buildNumber": 2000000001564,
+  "version": "ui-2000000001565-8aab90cf812f",
+  "buildNumber": 2000000001565,
   "apiContract": 1,
   "requiredCapabilities": [
     "rpc.v2",
