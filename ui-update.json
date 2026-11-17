@@ -1,6 +1,6 @@
 {
-  "version": "ui-2000000001568-70013bd0e16c",
-  "buildNumber": 2000000001568,
+  "version": "ui-2000000001569-45cf28ccc4fa",
+  "buildNumber": 2000000001569,
   "apiContract": 1,
   "requiredCapabilities": [
     "rpc.v2",
@@ -11,6 +11,6 @@
   ],
   "minAndroidBridge": 0,
   "url": "https://yuhaiin.github.io/frontend.tar.gz",
-  "sha256": "1432866f85178c86068c53b39191a6f197a832065c48bc44ee4dccf98027e078",
-  "size": 1529651
+  "sha256": "dcf5fc117645bb8c1777a903a26a6b2f07c6736fe35c5b32a350fc700f65f243",
+  "size": 1529056
 }
